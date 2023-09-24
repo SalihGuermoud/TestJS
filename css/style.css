@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "CroissantOne";
+    src: url(/font/CroissantOne-Regular.ttf);
+}
+
+body {
+    margin: 120px;
+    padding: 200px;
+    background: linear-gradient(blue, pink);
+    font-size: 30px;
+    font-family: CroissantOne;
+}
+
+select, input, button {
+    border-radius: 10px;
+    border-color: aquamarine;
+    font-size: 30px;
+}
+
+input {
+    width: 150px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(13, 201, 13);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+}
+
+button:hover {
+    transform: scale(1.1); 
+}
